@@ -6,7 +6,6 @@
 
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-[#030303] text-white">
     <header
@@ -14,11 +13,13 @@
     >
       <img src="./src/img/Logo (8).png" alt="" />
       <nav class="lg:flex hidden gap-5">
-        <p>Home</p>
-        <p>Services</p>
-        <p>Careers</p>
-        <p>Career Details</p>
-        <p>Contact</p>
+        <ul class="nav-links lg:flex hidden gap-5">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="page2.html">Services</a></li>
+          <li><a href="page3.html">Careers</a></li>
+          <li><a href="page4.html">Career Details</a></li>
+          <li><a href="page5.html">Contact</a></li>
+        </ul>
       </nav>
       <button class="bg-[#0A84FF] p-4 rounded-xl px-8">Contact Us</button>
     </header>
@@ -162,27 +163,28 @@
         <img src="./src/img/Button (1).png" alt="" />
         <img src="./src/img/Button (2).png" alt="" />
       </div>
-    </footer><br>
+    </footer>
+    <br />
     <footer class="items-center gap-10 justify-around flex">
-        <div class="flex gap-7">
-            <div class="flex gap-2">
-                <img src="./src/img/Icon (18).png" alt="">
-                <p>contact@catalystanalytics.io</p>
-            </div>
-            <div class="flex gap-2">
-                <img src="./src/img/Icon (19).png" alt="">
-                <p>+1 (469) 712-4672</p>
-            </div>
-            <div class="flex gap-2">
-                <img src="./src/img/Icon (20).png" alt="">
-                <p>5511 Parkcrest Dr, Suite 103, Austin, TX 78731</p>
-            </div>
+      <div class="flex gap-7">
+        <div class="flex gap-2">
+          <img src="./src/img/Icon (18).png" alt="" />
+          <p>contact@catalystanalytics.io</p>
         </div>
-        <div>
-            <img src="./src/img/Frame 2608170.png" alt="">
+        <div class="flex gap-2">
+          <img src="./src/img/Icon (19).png" alt="" />
+          <p>+1 (469) 712-4672</p>
         </div>
-
-    </footer> <br>
-    <p  class="text-center">© 2025 Catalyst Analytics. All rights reserved.</p>   
+        <div class="flex gap-2">
+          <img src="./src/img/Icon (20).png" alt="" />
+          <p>5511 Parkcrest Dr, Suite 103, Austin, TX 78731</p>
+        </div>
+      </div>
+      <div>
+        <img src="./src/img/Frame 2608170.png" alt="" />
+      </div>
+    </footer>
+    <br />
+    <p class="text-center">© 2025 Catalyst Analytics. All rights reserved.</p>
   </body>
 </html>
